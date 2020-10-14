@@ -40,12 +40,14 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"
+        <a class="nav-link" href="#" (click)="onSelect('recipe', $event)"
           >Recipes <span class="sr-only">(current)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Shopping List</a>
+        <a class="nav-link" href="#" (click)="onSelect('shopping-list', $event)"
+          >Shopping List</a
+        >
       </li>
     </ul>
 
